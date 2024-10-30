@@ -52,17 +52,4 @@ public class fileController {
         return ResponseEntity.ok().body("Datos insertados exitosamente");
     }
 
-    /* 
-     * realizar un endpoint que valide la data ingresada
-     * este endpoint recibira como parametro de entrada la fecha de proceso (columna pc_processdate de la tabla commerce)
-     * debe invocar un store procedure (SP) dicho SP, validara que la columna pc_nomcomred y pc_numdoc no esten vacias
-     * en caso de estarlo movera los registros a una tabla "commerce_quarantine"
-    */
-
-    /* 
-     * realizar un endpoint que imprima un reporte en PDF de los datos ingresado en X fecha (columna pc_processdate de la tabla commerce)
-     * y de la tabla commerce_quarantine
-     * se puede usar la libreria de su preferencia
-    */
-
 }
